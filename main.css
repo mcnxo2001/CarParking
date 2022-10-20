@@ -1,0 +1,97 @@
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    margin: 0;
+    background-image: url('img/design-flower-art-graphic-wallpaper-9950088de1ea4dfb5697582fe0d1c65d.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title {
+    background-color: #7366ffc9;
+    width: 300px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px -5px #000000;
+}
+
+.TitleName {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.AreaParking {
+    background-color: #fcfcfcd1;
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 10px -5px #000000;
+}
+
+.AreaParkingImg img {
+    width: 300px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.AreaParkingInformation {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px
+}
+
+.AreaParkingInformationItem {
+    margin: 0 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 251, 255, 0.823);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px -5px #0000008f;
+    width: 150px;
+    padding: 10px 0 10px 0;
+}
+
+.AreaParkingInformationItem span {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .AreaParking {
+        width: 350px;
+    }
+
+    .AreaParkingInformationItem {
+        margin: 0 10px 0 10px;
+    }
+    
+    body{
+        background-size: unset;
+    }
+}

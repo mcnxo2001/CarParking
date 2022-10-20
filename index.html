@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Car Parking</title>
+</head>
+<body>
+    <div class="Container">
+        <div class="Title">
+            <div class="TitleName">Car Parking</div>
+        </div>
+        <div class="AreaParking">
+            <div class="AreaParkingImg">
+                <img src="img/image-removebg-preview.png" alt="">
+            </div>
+            <div class="AreaParkingInformation">
+                <div class="AreaParkingInformationItem">
+                    <span>Xe vào</span>
+                    <div class="InputCar">Đã có xe vào</div>
+                </div>
+                <div class="AreaParkingInformationItem">
+                    <span>Xe ra</span>
+                    <div class="OutputCar">Đã có xe ra</div>
+                </div>
+            </div>
+        </div>
+        <div class="AreaParking">
+            <div class="AreaParkingImg">
+                <img src="img/image-removebg-preview1.png" alt="">
+            </div>
+            <div class="AreaParkingInformation">
+                <div class="AreaParkingInformationItem">
+                    <span>Số xe đã đỗ</span>
+                    <div class="InputCar" id="InputCar">10</div>
+                </div>
+                <div class="AreaParkingInformationItem">
+                    <span>Số chỗ còn lại</span>
+                    <div class="OutputCar" id="OutputCar">90</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="main.js"></script>
+</html>
